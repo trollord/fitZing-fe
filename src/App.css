@@ -10,12 +10,12 @@
   display: flex;
   flex-direction: column;
   max-width: 375px;
-  /* background-color: #f1f1f1; */
+  background-color: #f1f1f1;
   margin: auto;
   min-height: 100vh;
 }
 
-.signup,.login{
+.signup,.login, .profile{
   width: 80%;
   margin: 0 auto;
 }
@@ -151,3 +151,81 @@ Link{
   justify-content: space-between;
   gap: 40px;
 }
+
+
+/* Profile */
+
+.highlight-medical{
+  color: #18AC00;
+  border-color: #18AC00;
+    
+}
+
+.profile-header{
+  font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+  margin-top: 83px;
+    text-align: left;
+    margin-bottom: 27px;
+}
+
+.profile-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+#name{
+  border: none;
+  border-bottom: 1px solid #C1C1C1;
+  padding: 5px;
+}
+
+.gender-age{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+#gender, #age{
+  width: 128px;
+ border-radius: 3px;
+  border: 1px;
+  padding: 5px;
+}
+
+#food{
+  border-radius: 3px;
+    border: 1px;
+    padding: 5px;
+}
+
+.medical-header, .goal-header{
+    text-align: left;
+}
+
+.medical-btns, .goal-btns{
+  margin-top: 7px;
+  display: flex;
+  gap:10px;
+  flex-wrap: wrap;
+}
+
+.medical-btns button, .goal-btns button{
+  font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 5px;
+    border-radius: 13px;
+}
+
+.medical-btns button:hover, .goal-btns button:hover{
+  cursor: pointer;
+}
+
